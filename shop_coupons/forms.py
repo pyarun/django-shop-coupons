@@ -3,7 +3,7 @@ from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 
 from shop.forms.base import DialogForm
-from shop_discounts.models import Coupon
+from .models import Coupon
 
 
 class DiscountForm(DialogForm):

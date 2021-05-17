@@ -3,7 +3,7 @@ from django.db.models import Q, F
 from django.utils import timezone
 from django.utils.translation import ugettext_lazy as _
 
-from shop_discounts.constants import DiscountType
+from .constants import DiscountType
 
 
 class Offer(models.Model):

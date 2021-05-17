@@ -1,6 +1,7 @@
 from shop.modifiers.base import BaseCartModifier
 from shop.serializers.cart import ExtraCartRow
-from shop_discounts.models import Coupon
+
+from .models import Coupon
 
 
 class DiscountCartModifier(BaseCartModifier):
